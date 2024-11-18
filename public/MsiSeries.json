@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "title": "Pro 16 Flex-136AU",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail1.png",
+      "status": "in stock"
+    }
+  },
+  {
+    "id": 2,
+    "title": "17 Pro Max Flex-236AU ",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail2.png",
+      "status": "in stock"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Vivobook 6 Flex-036AU ",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail3.png",
+      "status": "in stock"
+    }
+  },
+  {
+    "id": 4,
+    "title": "best laptop ",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail4.png",
+      "status": "in stock"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Samsung Laptop ",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail5.png",
+      "status": "check availability"
+    }
+  },
+  {
+    "id": 6,
+    "title": "MSI GL",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail6.png",
+      "status": "in stock"
+    }
+  },
+  {
+    "id": 7,
+    "title": "MSI Flex-336AU ",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail7.png",
+      "status": "check availability"
+    }
+  },
+  {
+    "id": 8,
+    "title": "MSI Pro 16 Flex-036AU ",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail8.png",
+      "status": "in stock"
+    }
+  },
+  {
+    "id": 9,
+    "title": "MSI Pro 16 Flex-036AU ",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail9.png",
+      "status": "in stock"
+    }
+  },
+  {
+    "id": 10,
+    "title": "MSI Pro 16 Flex-036AU ",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail10.png",
+      "status": "in stock"
+    }
+  },
+  {
+    "id": 11,
+    "title": "MSI Pro 16 Flex-036AU ",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail11.png",
+      "status": "check availability"
+    }
+  },
+  {
+    "id": 12,
+    "title": "MSI Pro 16 Flex-036AU ",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail12.png",
+      "status": "in stock"
+    }
+  },
+  {
+    "id": 13,
+    "title": "MSI Pro 16 Flex-036AU ",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail13.png",
+      "status": "in stock"
+    }
+  },
+  {
+    "id": 14,
+    "title": "MSI Pro 16 Flex-036AU ",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail14.png",
+      "status": "check availability"
+    }
+  },
+  {
+    "id": 15,
+    "title": "MSI Pro 16 Flex-036AU ",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail15.png",
+      "status": "in stock"
+    }
+  },
+  {
+    "id": 16,
+    "title": "MSI Pro 16 Flex-036AU ",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail16.png",
+      "status": "in stock"
+    }
+  },
+  {
+    "id": 17,
+    "title": "MSI Pro 16 Flex-036AU ",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail17.png",
+      "status": "check availability"
+    }
+  },
+  {
+    "id": 18,
+    "title": "MSI Pro 16 Flex-036AU ",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail18.png",
+      "status": "in stock"
+    }
+  },
+  {
+    "id": 19,
+    "title": "MSI Pro 16 Flex-036AU ",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail19.png",
+      "status": "in stock"
+    }
+  },
+  {
+    "id": 20,
+    "title": "MSI Pro 16 Flex-036AU ",
+    "description": "Flex-036AU 15.6 MULTITOUCH All-In-On...",
+    "price": 499.0,
+    "discountPercentage": 499.0,
+    "rating": 4.94,
+    "category": {
+      "image": "/All_Products/thumbnail20.png",
+      "status": "in stock"
+    }
+  }
+]
