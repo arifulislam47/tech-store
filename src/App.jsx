@@ -46,7 +46,7 @@ const App = () => {
 
     setTimeout(() => {
       setLoading(false)
-    }, 500);
+    }, 5000);
   }, [auth]);
 
   return (
