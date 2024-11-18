@@ -286,8 +286,6 @@ const Navbar = () => {
                         className={` font-poppins font-semibold text-14 text-black`}
                         liText={`Laptops`}
                       />
-                      {/* mega menu */}
-                      <div className=" z-[50] absolute top-[115%] left-0 p-[30px] bg-green"></div>
                     </div>
                   </div>
                   <Li
