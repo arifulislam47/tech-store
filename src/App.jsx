@@ -16,6 +16,7 @@ import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { useAuth } from "./AuthContext.jsx";
 import ShoppingCart from "./pages/ShoppingCart.jsx";
 import HoverEffect from "./Components/HoverEffect.jsx";
+import Catalog from "./pages/Catalog.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
       <Route path="/customer Login" element={<Login />} />
       <Route path="/terms & conditions" element={<TermsConditions />} />
       <Route path="/shopping cart" element={<ShoppingCart />} />
+      <Route path="/product catalog" element={<Catalog />} />
     </Route>
   )
 );

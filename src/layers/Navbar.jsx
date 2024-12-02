@@ -12,6 +12,7 @@ import { GoLocation } from "react-icons/go";
 import { BiSolidCheckCircle } from "react-icons/bi";
 import { useAuth } from "../AuthContext";
 import { getAuth, signOut } from "firebase/auth";
+import axios from "axios";
 
 const Navbar = () => {
   let [openTime, setOpenTime] = useState(false);
@@ -22,6 +23,7 @@ const Navbar = () => {
   let smMemuBar = useRef(null);
   let [inputVisible, setInputVisible] = useState(false);
   let [smMenuBarOpen, setSmMenuBarClose] = useState(false);
+  let [shopTimes, setShopTimes] = useState();
 
   let [inputValue, setInputValue] = useState("");
   let [products, setProducts] = useState([]);
@@ -61,14 +63,22 @@ const Navbar = () => {
     let getData = async () => {
       let res = await fetch("/MsiSeries.json");
       let data = await res.json();
-      setProducts(data); // Set the whole data array to products
+      setProducts(data);
     };
+    async function getShopTime() {
+      let res = await axios.get("http://localhost:8080/shop_times");
+      setShopTimes(res.data);
+      
+    }
+    getShopTime();
     getData();
   }, []);
 
   const filteredProducts = products.filter((product) =>
     product.title?.toLowerCase().includes(inputValue.toLowerCase())
   );
+  console.log(shopTimes);
+  
 
   return (
     <div>
@@ -118,17 +128,19 @@ const Navbar = () => {
                               <span className="font-bold text-gray_2">
                                 Mon–Thu:
                               </span>
-                              <span className="ml-2">9:00 AM – 5:30 PM</span>
+                              <span className="ml-2">
+                                {shopTimes.mondayToThursday}
+                              </span>
                             </p>
                             <p className="text-gray-600">
                               <span className="font-bold text-gray_2">Fr:</span>
-                              <span className="ml-2">9:00 AM – 6:00 PM</span>
+                              <span className="ml-2"> {shopTimes.friday} </span>
                             </p>
                             <p className="text-gray-600">
                               <span className="font-bold text-gray_2">
                                 Sat:
                               </span>
-                              <span className="ml-2">11:00 AM – 5:00 PM</span>
+                              <span className="ml-2">{shopTimes.saturday}</span>
                             </p>
                           </div>
                         </div>
@@ -139,10 +151,10 @@ const Navbar = () => {
                             <GoLocation className="text-[25px]" />
                           </div>
                           <div>
-                            <h2 className="text-sm font-normal">
-                              Address: 1234 Street Address,
+                            <h2 className="text-sm font-normal flex gap-1 flex-wrap">
+                              Address:<p className=" font-normal">{shopTimes.address}</p> 
                             </h2>
-                            <p className=" font-normal">City Address, 1234</p>
+                            
                           </div>
                         </div>
 
@@ -154,7 +166,7 @@ const Navbar = () => {
                               href="tel:+0012345678"
                               className="text-primary hover:underline"
                             >
-                              (00) 1234 5678
+                              {shopTimes.phone}
                             </a>
                           </p>
                           <p className="font-normal text-black">
@@ -163,7 +175,7 @@ const Navbar = () => {
                               href="mailto:shop@email.com"
                               className="text-primary hover:underline"
                             >
-                              shop@email.com
+                              {shopTimes.email}
                             </a>
                           </p>
                         </div>

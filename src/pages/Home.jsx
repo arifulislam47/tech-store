@@ -34,7 +34,7 @@ const Home = () => {
             <h1 className=" font-poppins text-[22px] font-semibold">
               New Products
             </h1>
-            <Link to={`/product/catalog`} className=" text-primary underline">
+            <Link to={`/product catalog`} className=" text-primary underline">
               See All New Products{" "}
             </Link>
           </div>
