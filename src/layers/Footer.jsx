@@ -308,7 +308,9 @@ const Footer = () => {
           <FaInstagramSquare className=" text-gray_2 text-[30px]" />
         </Link>
       </div>
-      <div className=" flex gap-4">
+
+      
+      <div className=" flex gap-4 z-[100]">
         <Link to={``}>
           <img className=" w-12" src="/src/assets/Paypal.png" alt="" />
         </Link>
